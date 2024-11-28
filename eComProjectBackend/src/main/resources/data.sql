@@ -1,0 +1,108 @@
+INSERT INTO product (name, description, brand, price, category, release_date, available, quantity) VALUES
+-- Clothing & Apparel
+('Roadster Hoodie', 'Comfortable and stylish hoodie.', 'Roadster', 24.99, 'Clothing', '2023-08-01', true, 50),
+('Nike Air Max 270', 'Premium running shoes with superior cushioning.', 'Nike', 149.99, 'Footwear', '2024-01-15', true, 80),
+('Levi’s 501 Jeans', 'Classic straight-fit jeans.', 'Levi’s', 59.99, 'Clothing', '2023-10-05', true, 100),
+--('Puma Sports T-shirt', 'Breathable and moisture-wicking t-shirt.', 'Puma', 19.99, 'Clothing', '2023-07-10', true, 150),
+--('Adidas Superstar Sneakers', 'Iconic sneakers with timeless style.', 'Adidas', 89.99, 'Footwear', '2023-09-20', true, 75),
+
+---- Electronics
+--('Samsung Galaxy S23', 'High-performance smartphone with an amazing camera.', 'Samsung', 999.99, 'Mobile', '2024-01-10', true, 60),
+--('Sony WH-1000XM5', 'Noise-canceling wireless headphones.', 'Sony', 349.99, 'Electronics', '2023-08-15', true, 40),
+--('Apple MacBook Pro 16-inch', 'High-end laptop with M2 chip.', 'Apple', 2499.99, 'Computers', '2023-11-01', true, 30),
+--('Dell XPS 13', 'Compact and powerful ultrabook.', 'Dell', 1199.99, 'Computers', '2023-09-01', true, 20),
+--('Canon EOS R6', 'Full-frame mirrorless camera for professionals.', 'Canon', 2499.99, 'Cameras', '2023-06-15', true, 15),
+--
+---- Stationery
+--('Classmate Pen', 'Smooth and reliable ballpoint pen.', 'Classmate', 0.99, 'Stationery', '2023-03-10', true, 500),
+--('Faber-Castell Sketchbook', 'High-quality paper for artists and designers.', 'Faber-Castell', 14.99, 'Stationery', '2023-05-05', true, 100),
+--('Parker Jotter Pen', 'Stylish and durable rollerball pen.', 'Parker', 19.99, 'Stationery', '2023-02-20', true, 120),
+--('Staples A4 Notebook', '200-page ruled notebook for office use.', 'Staples', 2.99, 'Stationery', '2023-01-15', true, 400),
+--('Camlin Geometry Box', 'Precision instruments for students.', 'Camlin', 4.99, 'Stationery', '2023-04-10', true, 300),
+--
+---- Automobiles
+--('Honda Xtreme 125R', 'Sporty bike with efficient performance.', 'Honda', 1349.99, 'Automobile', '2023-11-01', true, 25),
+--('Royal Enfield Classic 350', 'A retro-modern motorcycle with style and comfort.', 'Royal Enfield', 2399.99, 'Automobile', '2024-01-01', true, 15),
+--('Hero Splendor Plus', 'Reliable and affordable commuter bike.', 'Hero', 999.99, 'Automobile', '2023-10-10', true, 50),
+--('Maruti Suzuki Swift', 'Compact hatchback with great fuel efficiency.', 'Maruti Suzuki', 7999.99, 'Automobile', '2024-02-01', true, 10),
+--('Kawasaki Ninja 300', 'Sport bike with dynamic styling.', 'Kawasaki', 5999.99, 'Automobile', '2023-12-15', true, 5),
+--
+---- Home & Kitchen
+--('Philips Air Fryer', 'Healthy cooking with less oil.', 'Philips', 129.99, 'Home Appliances', '2023-06-01', true, 70),
+--('Prestige Pressure Cooker', 'Durable pressure cooker for quick meals.', 'Prestige', 34.99, 'Kitchen', '2023-03-10', true, 150),
+--('Bosch Front Load Washing Machine', 'Efficient and energy-saving washing machine.', 'Bosch', 599.99, 'Home Appliances', '2023-07-25', true, 25),
+--('LG 42-inch Smart TV', 'High-definition smart television.', 'LG', 429.99, 'Home Entertainment', '2023-08-05', true, 40),
+--('Samsung Microwave Oven', 'Microwave with grill and convection features.', 'Samsung', 149.99, 'Kitchen', '2023-05-10', true, 35),
+--
+---- Personal Care
+--('Philips Beard Trimmer', 'Precision trimming for a groomed look.', 'Philips', 29.99, 'Personal Care', '2023-03-05', true, 100),
+--('Gillette Mach 3 Razor', 'Smooth shave with triple blades.', 'Gillette', 9.99, 'Personal Care', '2023-02-20', true, 200),
+--('Dove Shampoo', 'Moisturizing shampoo for healthy hair.', 'Dove', 4.99, 'Personal Care', '2023-04-01', true, 250),
+--('Nivea Body Lotion', 'Long-lasting moisturizing lotion.', 'Nivea', 7.99, 'Personal Care', '2023-05-10', true, 180),
+--('Oral-B Electric Toothbrush', 'Effective cleaning with rotating head.', 'Oral-B', 39.99, 'Personal Care', '2023-03-25', true, 80),
+--
+---- Toys & Games
+--('Lego City Police Station', 'Buildable police station with figures and vehicles.', 'Lego', 99.99, 'Toys', '2023-10-10', true, 40),
+--('Monopoly Classic Edition', 'Traditional board game for family fun.', 'Hasbro', 19.99, 'Games', '2023-11-15', true, 120),
+--('Hot Wheels Track Set', 'Exciting race track with multiple loops.', 'Hot Wheels', 29.99, 'Toys', '2023-09-20', true, 90),
+--('Barbie Dreamhouse', 'Deluxe dollhouse with furniture and accessories.', 'Barbie', 149.99, 'Toys', '2023-12-01', true, 30),
+--('PlayStation 5', 'Next-gen gaming console.', 'Sony', 499.99, 'Electronics', '2023-08-15', true, 15),
+--
+---- Sports & Outdoors
+--('Yonex Badminton Racket', 'Lightweight and durable racket for quick play.', 'Yonex', 29.99, 'Sports', '2023-03-01', true, 60),
+--('Adidas Football', 'High-quality football for outdoor games.', 'Adidas', 24.99, 'Sports', '2023-05-15', true, 80),
+--('Decathlon Tent', 'Easy-to-pitch tent for camping.', 'Decathlon', 49.99, 'Outdoors', '2023-07-10', true, 40),
+--('Garmin Fitness Watch', 'Advanced fitness tracking with GPS.', 'Garmin', 199.99, 'Wearable', '2023-10-01', true, 35),
+--('Nerf Blaster', 'Foam dart blaster for active play.', 'Nerf', 34.99, 'Toys', '2023-09-05', true, 100),
+--
+---- Groceries & Essentials
+--('Quaker Oats', 'Healthy and nutritious breakfast oats.', 'Quaker', 4.99, 'Groceries', '2023-02-05', true, 200),
+--('Nestle Milk', 'Fresh and pure milk.', 'Nestle', 1.99, 'Groceries', '2023-03-10', true, 300),
+--('Kellogg’s Corn Flakes', 'Crispy breakfast cereal.', 'Kellogg’s', 3.99, 'Groceries', '2023-04-20', true, 250),
+--('Britannia Good Day Biscuits', 'Crispy and buttery cookies.', 'Britannia', 0.99, 'Snacks', '2023-01-15', true, 400),
+--('Tata Salt', 'Iodized salt for daily cooking.', 'Tata', 0.49, 'Groceries', '2023-02-01', true, 500),
+--
+---- ... Continue to add more products up to the required 100 rows.
+---- Groceries & Essentials (continued)
+--('Maggi Noodles', 'Instant noodles with a delicious masala flavor.', 'Maggi', 0.99, 'Groceries', '2023-05-10', true, 600),
+--('Red Label Tea', 'Premium quality tea leaves for a strong cup.', 'Red Label', 2.49, 'Groceries', '2023-04-15', true, 350),
+--('Himalaya Face Wash', 'Herbal face wash for glowing skin.', 'Himalaya', 3.49, 'Personal Care', '2023-03-20', true, 250),
+--('Dettol Hand Sanitizer', 'Antibacterial hand sanitizer.', 'Dettol', 1.99, 'Personal Care', '2023-07-01', true, 500),
+--('Colgate Toothpaste', 'Advanced whitening toothpaste for fresh breath.', 'Colgate', 2.99, 'Personal Care', '2023-02-25', true, 400),
+--
+---- Electronics (continued)
+--('OnePlus Nord CE 3 Lite', 'Affordable smartphone with a sleek design.', 'OnePlus', 299.99, 'Mobile', '2024-01-20', true, 100),
+--('Samsung 49-inch Curved Monitor', 'Ultra-wide curved monitor for immersive gaming.', 'Samsung', 1299.99, 'Computers', '2023-11-15', true, 25),
+--('JBL Flip 5', 'Portable Bluetooth speaker with powerful bass.', 'JBL', 89.99, 'Electronics', '2023-09-01', true, 150),
+--('HP LaserJet Pro Printer', 'Efficient all-in-one printer for home offices.', 'HP', 199.99, 'Office Supplies', '2023-05-20', true, 50),
+--('GoPro HERO 11', 'Action camera with advanced stabilization.', 'GoPro', 499.99, 'Cameras', '2023-06-15', true, 30),
+--
+---- Fashion & Accessories
+--('Ray-Ban Aviator Sunglasses', 'Classic aviator sunglasses with UV protection.', 'Ray-Ban', 149.99, 'Accessories', '2023-08-05', true, 60),
+--('Casio G-Shock Watch', 'Rugged watch with shock resistance.', 'Casio', 99.99, 'Accessories', '2023-09-20', true, 80),
+--('Tommy Hilfiger Leather Wallet', 'Premium leather wallet with multiple compartments.', 'Tommy Hilfiger', 49.99, 'Accessories', '2023-05-10', true, 70),
+--('Fossil Smartwatch', 'Hybrid smartwatch with fitness tracking.', 'Fossil', 199.99, 'Wearable', '2023-11-01', true, 40),
+--('Guess Tote Bag', 'Stylish tote bag with spacious interior.', 'Guess', 79.99, 'Accessories', '2023-07-15', true, 50),
+--
+---- Toys & Games (continued)
+--('Rubik’s Cube', 'Classic 3x3 puzzle cube.', 'Rubik’s', 9.99, 'Toys', '2023-06-05', true, 200),
+--('UNO Card Game', 'Fun and fast-paced card game for family and friends.', 'Mattel', 7.99, 'Games', '2023-08-10', true, 250),
+--('Fisher-Price Baby Gym', 'Interactive play gym for infants.', 'Fisher-Price', 59.99, 'Toys', '2023-07-20', true, 30),
+--('Nerf Elite Blaster', 'High-capacity foam dart blaster.', 'Nerf', 49.99, 'Toys', '2023-11-05', true, 70),
+--('LEGO Technic Porsche 911', 'Detailed model of the Porsche 911 car.', 'LEGO', 199.99, 'Toys', '2023-12-10', true, 15),
+--
+---- Sports & Outdoors (continued)
+--('Wilson Tennis Racket', 'Lightweight racket for intermediate players.', 'Wilson', 49.99, 'Sports', '2023-03-25', true, 80),
+--('Spalding Basketball', 'Professional-grade basketball for outdoor courts.', 'Spalding', 29.99, 'Sports', '2023-04-05', true, 100),
+--('Coleman Sleeping Bag', 'Warm and comfortable sleeping bag for camping.', 'Coleman', 39.99, 'Outdoors', '2023-07-05', true, 50),
+--('Decathlon Hiking Backpack', 'Large-capacity backpack with multiple compartments.', 'Decathlon', 59.99, 'Outdoors', '2023-05-15', true, 40),
+--('Nike Yoga Mat', 'Non-slip mat for yoga and workouts.', 'Nike', 29.99, 'Fitness', '2023-02-20', true, 120),
+--
+---- Home & Kitchen (continued)
+--('Dyson V11 Vacuum Cleaner', 'Cordless vacuum cleaner with powerful suction.', 'Dyson', 599.99, 'Home Appliances', '2023-09-01', true, 20),
+--('Tupperware Food Storage Set', 'Airtight containers for kitchen organization.', 'Tupperware', 39.99, 'Kitchen', '2023-04-15', true, 100),
+--('KitchenAid Stand Mixer', 'High-performance mixer for baking and cooking.', 'KitchenAid', 399.99, 'Kitchen', '2023-12-01', true, 15),
+--('Instant Pot Duo', '7-in-1 pressure cooker with multiple functions.', 'Instant Pot', 99.99, 'Kitchen', '2023-05-25', true, 60),
+('Whirlpool Refrigerator', 'Double-door refrigerator with frost-free cooling.', 'Whirlpool', 799.99, 'Home Appliances', '2023-08-20', true, 10);
+--
+---- Add more rows as needed.
